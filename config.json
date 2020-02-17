@@ -1,0 +1,31 @@
+{
+  "debug": true,
+  "server": {
+    "address": ":8484",
+    "http_port": 8484,
+    "timeout": 600,
+    "_comment": "debug or release",
+    "runmode": "debug"
+  },
+  "context": {
+    "timeout": 600
+  },
+  "database": {
+    "type": "mysql",
+    "host": "35.247.134.16",
+    "port": "3306",
+    "user": "root",
+    "pass": "mariadb123",
+    "name": "irestoran_plus",
+    "table_prefix": ""
+  },
+  "databaselocal": {
+    "type": "mysql",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "user": "root",
+    "pass": "",
+    "name": "irestora2",
+    "table_prefix": ""
+  }
+}
